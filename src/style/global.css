@@ -1,0 +1,12 @@
+*root {
+    --d1-bg-color: #282628;
+    --l1-bg-color: #293235;
+    --secondary-color: #56C996;
+    --main-color: #FFFFFF;
+    --highlight: #F8CA1C;
+}
+
+body {
+    color: var(--main-color);
+    background-color: var(--d1-bg-color);
+}
