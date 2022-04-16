@@ -14,7 +14,6 @@
         <img src="../assets/contact.svg" alt="contact" class="nav-icon" />
       </router-link>
     </div>
-    <router-view />
   </div>
 </template>
 <style>
