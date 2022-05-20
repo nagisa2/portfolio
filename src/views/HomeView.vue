@@ -11,7 +11,7 @@
     <div class="home-c">
       <div class="h-name">
         <h1>Collins</h1>
-        <h3>SOFTWARE ENGINEER</h3>
+        <h3>software engineer</h3>
       </div>
       <div class="home-btn">Get intouch</div>
       <div class="home-social">
