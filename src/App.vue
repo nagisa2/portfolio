@@ -1,18 +1,25 @@
 <template>
-<div class="app-container">
-  <div class="sidebar">
-    <Nav />
+  <div class="app-c">
+    <div class="app-nav">
+      <Nav />
+    </div>
+    <div class="app-content">
+      <RouterView />
+    </div>
   </div>
-  <div class="content">
-  <router-view />
-</div>
-
-  </div>
-
 </template>
+
+<script>
+import { RouterView } from "vue-router";
+import Nav from "./components/NavComponent.vue";
+export default {
+  components: {
+    Nav,
+    RouterView,
+  },
+};
+</script>
+
 <style>
 @import "./style/global.css";
 </style>
-<script setup>
-import Nav from "./components/NavComponent.vue";
-</script>

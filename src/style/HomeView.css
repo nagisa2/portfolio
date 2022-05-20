@@ -1,5 +1,87 @@
-.home-container {
+.home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
-    background-color: red;
+.profile-pic .p-pic {
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+    object-fit: cover;
+    object-position: center;
+    background-color: var(--soft-black-tone);
+
+}   
+    
+
+.home-c {
+    display: flex;
+    padding-top:20px ;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.h-name h1 {
+    z-index: 999;
+    line-height: 1;
+    font: 105.5%/1.25em georgia,serif;
+    font-weight: 900;
+    font-size: 108px;
+    font-family: none;
+    text-align: center;
+    background-size: 23%;
+    background-clip: text;
+    color: var(--bg-color-dark);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-shadow: rgba(0, 0, 0, 0.4) -4px 2px 4px, rgba(255, 255, 255, 0.18) 2px -5px 4px;
+
+}
+
+.h-name h3 {
+    font-size: 12px;
+    margin: 0px auto;
+    padding-left: 11px;
+    letter-spacing: 11px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.home-btn {
+    width: 94%;
+    padding: 12px;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0px auto;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    justify-content: center;
+    -webkit-box-pack: center;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    color: var(--bg-color-light);
+    background-color: var(--soft-red-tone);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.home-social {
     width: 100%;
+    display: flex;
+    padding-top:15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.h-icon:hover {
+    cursor: pointer;
+    color: var(--soft-red-tone);
+    transition: all 0.4s ease-in-out;
 }
