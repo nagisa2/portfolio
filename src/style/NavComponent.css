@@ -1,4 +1,15 @@
-.nav-cp {
+@media screen {
+  
+  .nav-cp {
+
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width:49.0em) {
+
+  .nav-cp {
 
     height: 100%;
     display: flex;
@@ -148,11 +159,14 @@
 
 
 .icon {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     color: var(--soft-black-tone);
 }
 
 .icon-container:hover .icon {
     color: var(--bg-color-light);
 }
+
+
+} 

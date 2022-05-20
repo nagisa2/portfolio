@@ -1,3 +1,5 @@
+@media screen {
+
 .home {
     display: flex;
     align-items: center;
@@ -5,19 +7,38 @@
 }
 
 .profile-pic .p-pic {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius:50%;
     object-fit: cover;
     object-position: center;
     background-color: var(--soft-black-tone);
-
-}   
     
+}   
 
+.profile-skeleton {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    cursor: progress; 
+    background: 
+    linear-gradient(0.25turn, transparent, #fff, transparent),
+    linear-gradient(#eee, #eee),
+    radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%),
+    linear-gradient(#eee, #eee);  
+    background-repeat: no-repeat;
+    background-position: -315px 0, 0 0, 0px 190px, 50px 195px; 
+    animation: loading 2s infinite
+}
+@keyframes loading {  
+    to {
+      background-position: 315px 0, 0 0, 0 190px, 50px 195px;
+    }
+  }
+  
 .home-c {
     display: flex;
-    padding-top:20px ;
+    padding-top:40px ;
     align-items: center;
     flex-direction: column;
 
@@ -28,7 +49,7 @@
     line-height: 1;
     font: 105.5%/1.25em georgia,serif;
     font-weight: 900;
-    font-size: 108px;
+    font-size: 85px;
     font-family: none;
     text-align: center;
     background-size: 23%;
@@ -41,10 +62,10 @@
 }
 
 .h-name h3 {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0px auto;
     padding-left: 11px;
-    letter-spacing: 11px;
+    letter-spacing: 8px;
     padding-bottom: 20px;
     text-transform: uppercase;
 
@@ -54,7 +75,7 @@
     width: 94%;
     padding: 12px;
     display: flex;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     margin: 0px auto;
     font-weight: 600;
@@ -80,8 +101,51 @@
     justify-content: space-evenly;
 }
 
+.h-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--soft-black-tone);
+}
+
 .h-icon:hover {
     cursor: pointer;
     color: var(--soft-red-tone);
     transition: all 0.4s ease-in-out;
 }
+
+    
+}
+
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){
+
+.profile-pic .p-pic {
+    width: 250px;
+    height: 250px;
+
+}   
+    
+
+.h-name h1 {
+    font-size: 108px;
+}
+
+.h-name h3 {
+    font-size: 12px;
+    padding-left: 11px;
+    letter-spacing: 11px;
+
+}
+
+.home-btn {
+    width: 94%;
+    font-size: 16px;
+    
+}
+
+.home-social {
+    padding-top:15px;
+}
+}
+
