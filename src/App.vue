@@ -2,7 +2,7 @@
   <div class="app-c">
     <div class="app-nav">
       <Nav />
-    </div>
+    </div>  
     <div class="app-content">
       <RouterView />
     </div>

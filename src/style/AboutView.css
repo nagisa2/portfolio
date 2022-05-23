@@ -1,0 +1,235 @@
+@media screen {
+.about-container {
+    height: 100%;
+    display: flex;
+    padding:30px 0;
+    overflow-y: scroll;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.about-wrapper {
+    width: 90%;
+    row-gap:30px;
+    display: flex;
+    border-radius:0;
+    padding: 20px 15px;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color-light);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.about-content { 
+    row-gap: 20px;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.abt-info {
+    row-gap: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.abt-info h2,h3 {
+    text-align: center
+}
+
+.abt-info h3 {
+    color: var(--soft-black-tone)
+}
+
+
+.abt-pic {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-image:url('https://github.com/nagisa2.png') ;
+
+}
+
+.abt-skeleton {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    cursor: progress; 
+    background: 
+    linear-gradient(0.25turn, transparent, #fff, transparent),
+    linear-gradient(#eee, #eee),
+    radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%),
+    linear-gradient(#eee, #eee);  
+    background-repeat: no-repeat;
+    background-position: -315px 0, 0 0, 0px 190px, 50px 195px; 
+    animation: loading 2s infinite
+}
+
+@keyframes loading {  
+    to {
+      background-position: 315px 0, 0 0, 0 190px, 50px 195px;
+    }
+  }
+  
+
+.abt-skill-progress {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.progress-bar label {
+    padding-bottom: 5px;
+    width: fit-content;
+    font-size: 0.8rem;
+    display: block;
+
+}
+
+.skill-bar { 
+    height: 10px;
+    position: relative;
+    background: #ececec;
+    overflow: hidden;
+    /* box-shadow: 5px 5px 10px #e8e8e8,-5px -5px 10px #ffffff; */
+}
+
+.skill-bar span {
+    display: block;
+    height: 100%;
+}
+
+.progress {
+    animation: progressBar 3s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+
+
+@keyframes progressBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+.work-container , .techStack-c {
+    width: 100%;
+    padding-top: 90px;
+}
+
+.techStack-c h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+    
+}
+
+
+
+@media only screen and (min-width:49.0em) {
+
+
+.about-container {
+    padding:50px 0;
+ 
+}
+
+
+
+.about-wrapper {
+    width: 50%;
+    column-gap: 40px;
+    padding: 30px 15px;
+    flex-direction: row;
+}
+
+
+.abt-info {
+    row-gap: 5px; 
+}
+
+
+.abt-info h2 , h3 {
+    text-align: start;
+}
+
+
+
+.abt-info h3 {
+    color: var(--soft-black-tone)
+}
+
+.abt-pic {
+    width: 300px;
+    height: 300px;
+
+}
+
+.abt-skeleton {
+    width: 300px;
+    height: 300px;
+}
+
+.work-container , .techStack-c {
+    width: 50%;
+    padding-top: 90px;
+}
+
+}
+
+/* ipad/tablet */
+@media only screen and (min-width:48.0em){
+    .work-container , .techStack-c {
+        width: 90%;
+    }
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width:49.0em) and (max-width:64em) {
+
+
+.about-wrapper {
+    width: 65%;
+}
+
+.abt-pic {
+        width: 200px;
+        height: 200px;
+    
+}
+    
+.abt-skeleton {
+        width: 200px;
+        height: 200px;
+}
+
+.work-container , .techStack-c {
+    width: 65%;
+}
+
+}
+
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width:64.063em) and (max-width:90.0em) {
+    
+    .work-container , .techStack-c {
+        width: 50%;
+    }
+
+}
+
+
+/* 5k screens and above */
+@media only screen and (min-width:91.0em) {
+    
+    .work-container , .techStack-c {
+        width: 50%;
+    }
+}

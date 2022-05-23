@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Roboto:wght@100;300;400&display=swap');
+
 @media screen {
 
     
@@ -7,17 +9,45 @@
     margin: 0;
 
     /* color */
-    --bg-color-light:#fdfeff;
-    --bg-color-dark:#1f1f1f;
-    --soft-black-tone:rgba(0, 0, 0, 0.3);
-    --soft-red-tone: rgb(250, 30, 63);
+    --bg-color-light:#FDFEFF;   
+    --bg-color-dark:#141414;
+    --soft-black-tone:#4e4e50;
+    --soft-red-tone: #e00d2d;
+    --empshasis-color:#e76462;
     
+    /* font */
+    --header-font:'Open Sans', sans-serif;
+    --body-font:'Roboto', sans-serif;
 
 }
 
 body {
+    
     background-color: var(--bg-color-light);
-    color: var(--bg-color-dark);
+    font-family: var(--body-font);
+    color: var(--soft-black-tone);
+    font-weight: 300;
+}
+
+
+h1 ,h2 , h3 , strong , label {
+    text-transform: capitalize;
+
+}
+
+ h1, h2 {
+    font-family: var(--header-font);
+    font-weight: 600;
+}
+
+
+ h3 , strong , label {
+    font-weight: 300;
+
+}
+
+strong {
+    color: var(--empshasis-color);
 }
 
 
@@ -30,6 +60,8 @@ body {
     position: fixed;
     overflow-x: auto;
     overflow-y: hidden;
+   
+   
 }
 
 .app-content {
@@ -38,6 +70,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 }

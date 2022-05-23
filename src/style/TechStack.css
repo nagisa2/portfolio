@@ -1,0 +1,29 @@
+.tech-stack-layout {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.stack {
+ 
+    width: 150px;
+    height: 150px;
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.stack h4 {
+    font-weight: 300;
+}
+.work-icon {
+    width: 48px;
+    height: 48px;
+}

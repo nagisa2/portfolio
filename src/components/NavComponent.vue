@@ -2,7 +2,7 @@
   <div class="nav-cp">
     <div class="nav-item">
       <div class="nav-link">
-        <RouterLink to="/" id="link" class="nav-icon" exact>
+        <RouterLink to="/" class="nav-icon" exact>
           <div class="icon-container">
             <svg class="icon" viewBox="0 0 24 24">
               <path
@@ -15,7 +15,7 @@
         <span>Home</span>
       </div>
       <div class="nav-link">
-        <RouterLink to="/about" id="link" class="nav-icon">
+        <RouterLink to="/about" class="nav-icon">
           <div class="icon-container">
             <svg class="icon" viewBox="0 0 24 24">
               <path
@@ -28,7 +28,7 @@
         <span>About</span>
       </div>
       <div class="nav-link">
-        <RouterLink to="/portfolio" id="link" class="nav-icon">
+        <RouterLink to="/portfolio" class="nav-icon">
           <div class="icon-container">
             <svg class="icon" viewBox="0 0 24 24">
               <path
@@ -41,7 +41,7 @@
         <span>Portfolio</span>
       </div>
       <div class="nav-link">
-        <RouterLink to="/contact" id="link" class="nav-icon">
+        <RouterLink to="/contact" class="nav-icon">
           <div class="icon-container">
             <svg class="icon" viewBox="0 0 24 24">
               <path
