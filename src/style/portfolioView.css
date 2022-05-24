@@ -2,7 +2,7 @@
 .portfolio-container {
     width: 100%;
     display: flex;
-    padding-top:15vh;
+    padding-top:10vh;
     overflow-y: scroll;
     padding-bottom:5vh;
     align-items: center;

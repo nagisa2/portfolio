@@ -1,7 +1,6 @@
 @media screen {
 .about-container {
     display: flex;
-    padding:20px 0;
     overflow-y: scroll;
     align-items: center;
     flex-direction: column;
@@ -67,7 +66,7 @@
     linear-gradient(#eee, #eee);  
     background-repeat: no-repeat;
     background-position: -315px 0, 0 0, 0px 190px, 50px 195px; 
-    animation: loading 2s infinite
+    animation: loading 2s ease-in infinite
 }
 
 @keyframes loading {  
@@ -117,20 +116,20 @@
   100% { width: 100%; }
 }
 
-.work-container , .techStack-c {
+.work-container {
     width: 100%;
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .techStack-c {
-    padding-top:20vh;
+    padding-top:10vh;
+    
 }
 
 .techStack-c h1 {
     text-align: center;
     padding: 20px;
 }
-
 
     
 }
@@ -199,7 +198,7 @@
     }
 
     .techStack-c {
-        padding-top:30vh;
+        padding-top:15vh;
     }
     
 
