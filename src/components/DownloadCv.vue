@@ -1,13 +1,11 @@
 <template>
   <div class="portfolio-btn" ref="download">
-    <a :href="publicPath" download ref="downloadLink"> Download cv </a>
+    <a href="/public/CollinsOdongoCv.pdf" download ref="downloadLink"> Download cv </a>
   </div>
 </template>
 
 <script>
-export default {
-  data: () => ({ publicPath: "/public/CollinsOdongoCv.pdf" }),
-};
+export default {};
 </script>
 
 <style>
