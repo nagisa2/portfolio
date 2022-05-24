@@ -11,13 +11,11 @@
 
 <script>
 import { RouterView } from "vue-router";
-import AboutView from "./views/AboutView.vue";
 import Nav from "./components/NavComponent.vue";
 export default {
   components: {
     Nav,
     RouterView,
-    AboutView,
   },
 };
 </script>
