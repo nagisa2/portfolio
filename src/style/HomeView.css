@@ -1,162 +1,161 @@
 @media screen {
 
-.home {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-.profile-pic .p-pic {
-    width: 200px;
-    height: 200px;
-    border-radius:50%;
-    object-fit: cover;
-    object-position: center;
-    background-color: var(--soft-black-tone);
-    
-}   
-
-.profile-skeleton {
-    width: 200px;
-    height: 200px;
-    border-radius:50%;
-    cursor: progress; 
-    background: 
-    linear-gradient(0.25turn, transparent, #fff, transparent),
-    linear-gradient(#eee, #eee),
-    radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%),
-    linear-gradient(#eee, #eee);  
-    background-repeat: no-repeat;
-    background-position: -315px 0, 0 0, 0px 190px, 50px 195px; 
-    animation: loading 2s infinite
-}
-@keyframes loading {  
-    to {
-      background-position: 315px 0, 0 0, 0 190px, 50px 195px;
+    .home {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
     }
-  }
-  
-  
-.home-c {
-    display: flex;
-    padding-top:40px ;
-    align-items: center;
-    flex-direction: column;
-
-}
-
-.h-name h1 {
-    z-index: 999;
-    line-height: 1;
-    overflow: hidden;
-    margin: 0 auto;
-    white-space: nowrap;
-    font: 105.5%/1.25em georgia,serif;
-    font-weight: 900;
-    font-size: 85px;
-    font-family: none;
-    text-align: center;
-    background-size: 30%;
-    background-clip: text;
-    color: var(--bg-color-dark);
-    background-repeat: no-repeat;
-    background-position: center center;
-    animation: typing 3.5s steps(40, end), .75s step-end infinite;
-    text-shadow: rgba(0, 0, 0, 0.3) -4px 2px 4px, rgba(255, 255, 255, 0.18) 2px -5px 4px;
-
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-
-.h-name h3 {
-    font-size: 10px;
-    margin: 0px auto;
-    padding-left: 11px;
-    letter-spacing: 8px;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-
-}
-
-.home-btn {
-    width: 94%;
-    padding: 12px;
-    display: flex;
-    font-size: 14px;
-    cursor: pointer;
-    margin: 0px auto;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 4px;
-    align-items: center;
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    justify-content: center;
-    -webkit-box-pack: center;
-    text-transform: uppercase;
-    -webkit-box-align: center;
-    color: var(--bg-color-light);
-    background-color: var(--soft-red-tone);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-}
-
-.home-social {
-    width: 100%;
-    display: flex;
-    padding-top:15px;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.h-icon {
-    width: 24px;
-    height: 24px;
-    color: var(--soft-black-tone);
-}
-
-.h-icon:hover {
-    cursor: pointer;
-    color: var(--soft-red-tone);
-    transition: all 0.4s ease-in-out;
-}
-
     
-}
-
-
-/* ipad/tablet */
-@media only screen and (min-width:48.0em){
-
-.profile-pic .p-pic {
-    width: 250px;
-    height: 250px;
-
-}   
+    .profile-pic .p-pic {
+        width: 200px;
+        height: 200px;
+        border-radius:50%;
+        object-fit: cover;
+        object-position: center;
+        background-color: var(--soft-black-tone);
+        
+    }   
     
-
-.h-name h1 {
-    font-size: 108px;
-}
-
-.h-name h3 {
-    font-size: 12px;
-    padding-left: 11px;
-    letter-spacing: 11px;
-
-}
-
-.home-btn {
-    width: 94%;
-    font-size: 16px;
+    .profile-skeleton {
+        width: 200px;
+        height: 200px;
+        border-radius:50%;
+        cursor: progress; 
+        background: 
+        linear-gradient(0.25turn, transparent, #fff, transparent),
+        linear-gradient(#eee, #eee),
+        radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%),
+        linear-gradient(#eee, #eee);  
+        background-repeat: no-repeat;
+        background-position: -315px 0, 0 0, 0px 190px, 50px 195px; 
+        animation: loading 2s infinite
+    }
+    @keyframes loading {  
+        to {
+          background-position: 315px 0, 0 0, 0 190px, 50px 195px;
+        }
+      }
+      
+      
+    .home-c {
+        display: flex;
+        padding-top:40px ;
+        align-items: center;
+        flex-direction: column;
     
-}
-
-.home-social {
-    padding-top:15px;
-}
-}
-
+    }
+    
+    .h-name h1 {
+        z-index: 999;
+        line-height: 1;
+        overflow: hidden;
+        margin: 0 auto;
+        white-space: nowrap;
+        font: 105.5%/1.25em georgia,serif;
+        font-weight: 900;
+        font-size: 85px;
+        font-family: none;
+        text-align: center;
+        background-size: 30%;
+        background-clip: text;
+        color: var(--bg-color-dark);
+        background-repeat: no-repeat;
+        background-position: center center;
+        animation: typing 3.5s steps(40, end), .75s step-end infinite;
+        text-shadow: rgba(0, 0, 0, 0.3) -4px 2px 4px, rgba(255, 255, 255, 0.18) 2px -5px 4px;
+    
+    }
+    
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+    
+    .h-name h3 {
+        font-size: 10px;
+        margin: 0px auto;
+        padding-left: 11px;
+        letter-spacing: 8px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    
+    }
+    
+    .home-btn {
+        width: 94%;
+        padding: 12px;
+        display: flex;
+        font-size: 14px;
+        cursor: pointer;
+        margin: 0px auto;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 4px;
+        align-items: center;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        justify-content: center;
+        -webkit-box-pack: center;
+        text-transform: uppercase;
+        -webkit-box-align: center;
+        color: var(--bg-color-light);
+        background-color: var(--soft-red-tone);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+    
+    .home-social {
+        width: 100%;
+        display: flex;
+        padding-top:15px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .h-icon {
+        width: 24px;
+        height: 24px;
+        color: var(--soft-black-tone);
+    }
+    
+    .h-icon:hover {
+        cursor: pointer;
+        color: var(--soft-red-tone);
+        transition: all 0.4s ease-in-out;
+    }
+    
+        
+    }
+    
+    
+    /* ipad/tablet */
+    @media only screen and (min-width:48.0em){
+    
+    .profile-pic .p-pic {
+        width: 250px;
+        height: 250px;
+    
+    }   
+        
+    
+    .h-name h1 {
+        font-size: 108px;
+    }
+    
+    .h-name h3 {
+        font-size: 12px;
+        padding-left: 11px;
+        letter-spacing: 11px;
+    
+    }
+    
+    .home-btn {
+        width: 94%;
+        font-size: 16px;
+        
+    }
+    
+    .home-social {
+        padding-top:15px;
+    }
+    }

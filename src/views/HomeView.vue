@@ -3,7 +3,6 @@
     <div class="profile-pic">
       <img
         :src="profilePic"
-        alt="profile pic"
         class="p-pic"
         :class="[this.profilePic == !'' ? 'p-pic' : 'profile-skeleton']"
       />

@@ -2,7 +2,7 @@
 .about-container {
     height: 100%;
     display: flex;
-    padding:30px 0;
+    padding:40px 0;
     overflow-y: scroll;
     align-items: center;
     flex-direction: column;
