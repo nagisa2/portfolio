@@ -65,7 +65,7 @@
 export default {
   data() {
     return {
-      phoneNumber: "0702777148",
+      phoneNumber: "+254702777148",
       message: "Hi👋, My name is collins, what can i do for you?",
     };
   },
