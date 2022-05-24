@@ -19,7 +19,7 @@
 .portfolio-header {
     row-gap: 5px;
     display: flex;
-    text-align: center;
+    text-align: start;
     flex-direction: column;
 
 }
@@ -31,6 +31,7 @@
 
 .portfolio-header h3 {
     font-size: .8rem;
+    text-align: start;
     text-transform: none;
 }
 
@@ -38,7 +39,7 @@
     display: flex;
     border-radius: 5px;
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 
 }
 
@@ -210,7 +211,6 @@
 }
 
 .portfolio-wrapper {
-    display: flex;
     box-shadow: none;
     border-radius: 0;
     flex-direction: row;
@@ -220,10 +220,8 @@
 .portfolio-img {
     object-fit: cover;
     position: relative;
-    border-radius: none;
     object-position: center; 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .portfolio-img,  .portfolio-skeleton {
@@ -233,6 +231,9 @@
 
 }
 
+.img-wrapper {
+    border-radius: 5px;
+}
 
 .portfolio-info {
     row-gap: 10px;
@@ -333,7 +334,6 @@
 }
 
 .portfolio-wrapper {
-    display: flex;
     box-shadow: none;
     border-radius: 0;
     flex-direction: row;
@@ -344,8 +344,7 @@
     object-fit: cover;
     position: relative;
     object-position: center; 
-    border-radius: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 
 }
 
@@ -356,6 +355,9 @@
 
 }
 
+.img-wrapper {
+    border-radius: 5px;
+}
 
 .portfolio-info {
     row-gap: 10px;
