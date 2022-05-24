@@ -6,7 +6,7 @@
           :src="profilePic"
           alt="about image"
           class="abt-pic"
-          :class="[this.profilePic == !'' ? 'abt-pic' : 'abt-skeleton']"
+          :class="[profilePic == !'' ? 'abt-pic' : 'abt-skeleton']"
         />
       </div>
       <div class="about-content">

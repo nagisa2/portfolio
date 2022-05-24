@@ -25,7 +25,11 @@
         object-position: center;
         background-color: var(--soft-black-tone);
         
-    }   
+    }
+    
+    .p-pic {
+        outline: none;
+    }
     
     .profile-skeleton {
         width: 200px;
