@@ -55,7 +55,10 @@ import TechStack from "../components/TechStack.vue";
 export default {
   data() {
     return {
-      components: [WorkInfo, TechStack],
+      components: {
+        WorkInfo,
+        TechStack,
+      },
       skills: [
         {
           Sname: "web development",
