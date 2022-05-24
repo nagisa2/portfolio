@@ -48,14 +48,24 @@
         </div>
       </div>
     </div>
+    <div class="mid-app">
+      <AboutView />
+      <PortfolioView />
+    </div>
   </div>
 </template>
 <script>
+import AboutView from "./AboutView.vue";
+import PortfolioView from "./portfolioView.vue";
 export default {
   data() {
     return {
       profilePic: "https://github.com/nagisa2.png",
     };
+  },
+  components: {
+    AboutView,
+    PortfolioView,
   },
 };
 </script>

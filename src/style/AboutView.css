@@ -1,8 +1,7 @@
 @media screen {
 .about-container {
-    height: 100%;
     display: flex;
-    padding:40px 0;
+    padding:50px 0;
     overflow-y: scroll;
     align-items: center;
     flex-direction: column;
@@ -19,6 +18,10 @@
     flex-direction: column;
     background-color: var(--bg-color-light);
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.about-img {
+    display: none;
 }
 
 .about-content { 
@@ -134,10 +137,14 @@
 
 
 .about-container {
+    height: 100%;
     padding:50px 0;
  
 }
 
+.about-img {
+    display: flex;
+}
 
 
 .about-wrapper {

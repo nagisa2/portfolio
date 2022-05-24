@@ -1,12 +1,37 @@
 @media screen {
 
     .home {
+        height: 100%;  
+        row-gap: 20px;
         display: flex;
+        padding: 8vh 0;
+        overflow-x: auto;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column; 
+    }
+
+    @media (min-width:320px) and (max-width:658px) {
+        .home {
+            padding: 14vh 0;
+        }
         
     }
+
+    @media (min-width:360px) and (max-width:640px) {
+        .home {
+            padding: 14vh 0;
+        }
+        
+    }
+
     
+    @media (min-width:414px) and (max-width:736px) {
+        .home {
+            padding: 25vh 0;
+        }
+        
+    }
+
     .profile-pic .p-pic {
         width: 200px;
         height: 200px;
@@ -159,3 +184,15 @@
         padding-top:15px;
     }
     }
+
+    @media only screen and (min-width:49.0em) {
+
+        .home {
+            height: auto;
+        }
+
+        .mid-app {
+            display: none;
+        }
+    }
+    

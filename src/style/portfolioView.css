@@ -1,9 +1,8 @@
 @media screen {
 .portfolio-container {
-    height: 100%;
     width: 100%;
     display: flex;
-    padding:40px 0;
+    padding: 4np0px 0;
     overflow-y: scroll;
     align-items: center;
     flex-direction: column;
@@ -272,6 +271,7 @@
 
 .portfolio-container {
     overflow-y: hidden;
+    padding: 40px 0;
 }
     
 
