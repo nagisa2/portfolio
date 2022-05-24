@@ -71,7 +71,10 @@ export default {
   },
   methods: {
     whatsapp() {
-      window.open(`https://wa.me/${this.phoneNumber}?text=${this.message}`, "_blank");
+      window.open(
+        `https://wa.me/${this.phoneNumber}?text=${this.message}`,
+        "_blank"
+      );
     },
     behance() {
       window.open("https://www.behance.net/collinsodongo1", "_blank");
