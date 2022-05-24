@@ -166,6 +166,24 @@
         height: auto;
 }
 
+.portfolio-container .portfolio-wrapper:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.portfolio-wrapper:nth-child(3) .portfolio-info {
+    display: flex;
+    align-items: flex-start
+    
+}
+
+.portfolio-wrapper:nth-child(3) .info-details {
+    display: flex;
+    text-align: start; 
+
+}
+    
+
 .portfolio-content {
     row-gap: 50px;
     padding: 0;
@@ -275,6 +293,23 @@
 .portfolio-container {
     overflow-y: hidden;
     padding: 40px 0;
+}
+
+.portfolio-container .portfolio-wrapper:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.portfolio-wrapper:nth-child(3) .portfolio-info {
+    display: flex;
+    align-items: flex-start
+    
+}
+
+.portfolio-wrapper:nth-child(3) .info-details {
+    display: flex;
+    text-align: start; 
+
 }
     
 

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="mobile-view">
+    <div class="mobile-view" ref="homeAnimation">
       <div class="profile-pic">
         <img
           :src="profilePic"
@@ -51,13 +51,14 @@
       </div>
     </div>
     <div class="mid-app">
-      <AboutView />
-      <PortfolioView />
-      <ContactView />
+      <AboutView ref="aboutAnimation" />
+      <PortfolioView ref="portfolioAnimation" />
+      <ContactView ref="contactAnimation" />
     </div>
   </div>
 </template>
 <script>
+// import gsap from "gsap";
 import AboutView from "./AboutView.vue";
 import PortfolioView from "./portfolioView.vue";
 import ContactView from "./contactView.vue";
@@ -98,6 +99,17 @@ export default {
       window.open("https://github.com/nagisa2/", "_blank");
     },
   },
+
+  // mounted() {
+  //   const {
+  //     homeAnimation,
+  //     aboutAnimation,
+  //     portfolioAnimation,
+  //     contactAnimation,
+  //   } = this.$refs;
+  //   const tl = gsap.timeline({});
+  //   tl.from({});
+  // },
 };
 </script>
 
