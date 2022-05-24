@@ -17,7 +17,7 @@
             My name is <strong> collins odongo, </strong> a passionate
             <strong> designer </strong> and
             <strong> fullstack developer </strong> based in Nairobi, Kenya and
-            highly addicted to coffee. am a problem solver and a sucker for good
+            highly addicted to coffee. am a problem solver and a pioneer of good
             designs so your projects are safe with me
           </p>
         </div>

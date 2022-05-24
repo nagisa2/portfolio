@@ -53,12 +53,14 @@
     <div class="mid-app">
       <AboutView />
       <PortfolioView />
+      <ContactView />
     </div>
   </div>
 </template>
 <script>
 import AboutView from "./AboutView.vue";
 import PortfolioView from "./portfolioView.vue";
+import ContactView from "./contactView.vue";
 export default {
   data() {
     return {
@@ -67,6 +69,7 @@ export default {
   },
   components: {
     AboutView,
+    ContactView,
     PortfolioView,
   },
 };
