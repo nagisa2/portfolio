@@ -148,16 +148,16 @@ export default {
   },
   methods: {
     behanceProject() {
-      window.open(`${this.Projects[0].behanceLink}`);
+      window.open(`${this.Projects[0].behanceLink}`, "_blank");
     },
     githubProject() {
-      window.open(`${this.Projects[1].githubLink}`);
+      window.open(`${this.Projects[1].githubLink}`, "_blank");
     },
     graphicLink() {
-      window.open(`${this.Projects[0].behanceLink}`);
+      window.open(`${this.Projects[0].behanceLink}`, "_blank");
     },
-    webLink(){
-      window.open(`${this.Projects[1].projectLink}`);
+    webLink() {
+      window.open(`${this.Projects[1].projectLink}`, "_blank");
     },
   },
 };

@@ -65,7 +65,7 @@ export default {
   data() {
     return {
       profilePic: "https://github.com/nagisa2.png",
-      phoneNumber: "+254702777148",
+      phoneNumber: "254702777148",
       message: "Hi👋, My name is collins, what can i do for you?",
     };
   },
@@ -77,19 +77,25 @@ export default {
 
   methods: {
     getIntouch() {
-      window.open(`https://wa.me/${this.phoneNumber}?text=${this.message}`);
+      window.open(
+        `https://wa.me/${this.phoneNumber}?text=${this.message}`,
+        "_blank"
+      );
     },
     whatsapp() {
-      window.open(`https://wa.me/${this.phoneNumber}?text=${this.message}`);
+      window.open(
+        `https://wa.me/${this.phoneNumber}?text=${this.message}`,
+        "_blank"
+      );
     },
     behance() {
-      window.open("https://www.behance.net/collinsodongo1");
+      window.open("https://www.behance.net/collinsodongo1", "_blank");
     },
     instagram() {
-      window.open("https://instagram.com/anonscript1");
+      window.open("https://instagram.com/anonscript1", "_blank");
     },
     github() {
-      window.open("https://github.com/nagisa2/");
+      window.open("https://github.com/nagisa2/", "_blank");
     },
   },
 };
