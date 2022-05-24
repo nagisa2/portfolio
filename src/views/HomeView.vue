@@ -5,7 +5,7 @@
         <img
           :src="profilePic"
           class="p-pic"
-          :class="[this.profilePic == !'' ? 'p-pic' : 'profile-skeleton']"
+          :class="[profilePic == !'' ? 'p-pic' : 'profile-skeleton']"
         />
       </div>
       <div class="home-c">
