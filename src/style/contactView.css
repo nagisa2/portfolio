@@ -54,7 +54,8 @@
     width: 42px;
     height: 42px;
     display: flex;
-    column-gap:5px ;
+    column-gap:5px;
+    cursor: pointer;
     border-radius:50%;
     align-items: center;
     justify-content: center;

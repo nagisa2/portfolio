@@ -13,7 +13,7 @@
           <h1>Collins</h1>
           <h3>software engineer</h3>
         </div>
-        <div class="home-btn">Get intouch</div>
+        <div class="home-btn" @click="getIntouch()">Get intouch</div>
         <div class="home-social">
           <div class="github">
             <svg class="icon h-icon" @click="github()" viewBox="0 0 24 24">
@@ -65,12 +65,32 @@ export default {
   data() {
     return {
       profilePic: "https://github.com/nagisa2.png",
+      phoneNumber: "0702777148",
+      message: "Hi👋, My name is collins, what can i do for you?",
     };
   },
   components: {
     AboutView,
     ContactView,
     PortfolioView,
+  },
+
+  methods: {
+    getIntouch() {
+      window.open(`https://wa.me/${this.phoneNumber}?text=${this.message}`);
+    },
+    whatsapp() {
+      window.open(`https://wa.me/${this.phoneNumber}?text=${this.message}`);
+    },
+    behance() {
+      window.open("https://www.behance.net/collinsodongo1");
+    },
+    instagram() {
+      window.open("https://instagram.com/anonscript1");
+    },
+    github() {
+      window.open("https://github.com/nagisa2/");
+    },
   },
 };
 </script>

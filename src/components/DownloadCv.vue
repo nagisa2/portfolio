@@ -1,6 +1,6 @@
 <template>
-  <div class="portfolio-btn">
-    <a :href="`${publicPath}`" download> Download cv </a>
+  <div class="portfolio-btn" ref="download">
+    <a :href="`${publicPath}`" download ref="downloadLink"> Download cv </a>
   </div>
 </template>
 

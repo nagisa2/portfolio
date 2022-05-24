@@ -146,6 +146,20 @@ export default {
       ],
     };
   },
+  methods: {
+    behanceProject() {
+      window.open(`${this.Projects[0].behanceLink}`);
+    },
+    githubProject() {
+      window.open(`${this.Projects[1].githubLink}`);
+    },
+    graphicLink() {
+      window.open(`${this.Projects[0].behanceLink}`);
+    },
+    webLink(){
+      window.open(`${this.Projects[1].projectLink}`);
+    },
+  },
 };
 </script>
 
