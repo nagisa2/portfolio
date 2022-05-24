@@ -2,8 +2,9 @@
 .portfolio-container {
     width: 100%;
     display: flex;
-    padding: 40;
+    padding-top:15vh;
     overflow-y: scroll;
+    padding-bottom:5vh;
     align-items: center;
     flex-direction: column;
 }
@@ -11,7 +12,7 @@
 .portfolio-content {
     row-gap: 60px;
     display: flex;
-    padding: 0 10px ;
+    padding: 0 20px ;
     flex-direction: column;
 }
 
@@ -25,6 +26,7 @@
 
 .portfolio-header h1 {
     font-size: 1.2rem;
+    
 }
 
 .portfolio-header h3 {
@@ -89,6 +91,7 @@
 .portfolio-info h3 {
     font-size: 1rem;
     font-weight: 600;
+    text-align: start;
     font-family: var(--header-font);
     color: var(--soft-black-tone);
 }
@@ -143,7 +146,7 @@
 }
 
 .portfolio-img,  .portfolio-skeleton {
-    height:250px;
+    height:300px;
 }
 
 .portfolio-info {

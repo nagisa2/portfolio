@@ -8,7 +8,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import { RouterView } from "vue-router";
 import Nav from "./components/NavComponent.vue";

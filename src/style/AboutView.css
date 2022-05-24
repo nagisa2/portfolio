@@ -1,7 +1,7 @@
 @media screen {
 .about-container {
     display: flex;
-    padding:50px 0;
+    padding:20px 0;
     overflow-y: scroll;
     align-items: center;
     flex-direction: column;
@@ -122,6 +122,10 @@
     padding-top: 90px;
 }
 
+.techStack-c {
+    padding-top:20vh;
+}
+
 .techStack-c h1 {
     text-align: center;
     padding: 20px;
@@ -194,6 +198,13 @@
         width: 90%;
     }
 
+    .techStack-c {
+        padding-top:30vh;
+    }
+    
+
+
+
 }
 
 /* ipad pro screens & laptop */
@@ -219,6 +230,9 @@
     width: 65%;
 }
 
+
+
+
 }
 
 
@@ -230,6 +244,10 @@
         width: 50%;
     }
 
+    .techStack-c {
+        padding-top:20vh;
+    }
+
 }
 
 
@@ -238,5 +256,9 @@
     
     .work-container , .techStack-c {
         width: 50%;
+    }
+
+    .techStack-c {
+        padding-top:20vh;
     }
 }
