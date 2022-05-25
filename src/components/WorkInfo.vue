@@ -35,7 +35,7 @@
           :autoinit="true"
           class="counter-id"
         />
-        <h4>Cups of coffee </h4>
+        <h4>Cups of coffee</h4>
       </div>
     </div>
     <div class="work-info">

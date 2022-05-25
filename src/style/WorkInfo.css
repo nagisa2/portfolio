@@ -9,6 +9,7 @@
         justify-content: space-between;   
     }
     
+    
     .work-info {
         display: flex;
         flex-wrap: wrap;
@@ -53,7 +54,6 @@
 
 @media only screen and (min-width:49.0em) {
 
-
     .work-info {
         display: flex;
         flex-wrap: wrap;
@@ -86,8 +86,14 @@
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
 
+    .work-wrapper {
+        margin-left:5vw ;
+        width: 100%;
+    }
+
     .work-icon {
         margin-bottom:10px;
+        
     }
 
 

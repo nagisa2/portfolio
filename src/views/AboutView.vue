@@ -4,7 +4,6 @@
       <div class="about-img">
         <img
           :src="profilePic"
-          alt="about image"
           class="abt-pic"
           :class="[profilePic == !'' ? 'abt-pic' : 'abt-skeleton']"
         />

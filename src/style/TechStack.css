@@ -1,3 +1,5 @@
+@media screen {
+
 .tech-stack-layout {
     gap: 10px;
     display: flex;
@@ -27,3 +29,6 @@
     width: 48px;
     height: 48px;
 }
+
+}
+

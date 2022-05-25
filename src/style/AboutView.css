@@ -4,23 +4,28 @@
     overflow-y: scroll;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
  
 }
 
 .about-wrapper {
-    width: 90%;
+    width: 100%;
     row-gap:30px;
     display: flex;
     border-radius:0;
     padding: 20px 15px;
     align-items: center;
     flex-direction: column;
-    background-color: var(--bg-color-light);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  
 }
 
 .about-img {
     display: none;
+}
+
+.about-img[alt] {
+    outline: none;
+    border: none;
 }
 
 .about-content { 
@@ -37,11 +42,14 @@
 
 }
 
-.abt-info h2,h3 {
-    text-align: center
+.abt-info h2, h3 {
+    text-align: center;
 }
 
+
+
 .abt-info h3 {
+    padding-bottom: 12px;
     color: var(--soft-black-tone)
 }
 
@@ -106,6 +114,7 @@
 
 .progress {
     animation: progressBar 3s ease-in-out;
+    background-repeat: no-repeat;
     animation-fill-mode:both; 
 }
 
@@ -117,8 +126,11 @@
 }
 
 .work-container {
-    width: 100%;
+    width: 95%;
+    display: flex;
     padding-top: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .techStack-c {
@@ -139,11 +151,12 @@
 @media only screen and (min-width:49.0em) {
 
 
+
 .about-container {
-    height: 100%;
-    padding:50px 0;
- 
-}
+    padding-top: 60vh;
+    padding-bottom: 30px;
+    overflow-y: scroll;
+} 
 
 .about-img {
     display: flex;
@@ -155,6 +168,8 @@
     column-gap: 40px;
     padding: 30px 15px;
     flex-direction: row;
+    background-color: var(--bg-color-light);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 
@@ -189,13 +204,12 @@
     padding-top: 90px;
 }
 
+
+
 }
 
 /* ipad/tablet */
 @media only screen and (min-width:48.0em){
-    .work-container , .techStack-c {
-        width: 90%;
-    }
 
     .techStack-c {
         padding-top:15vh;
@@ -209,9 +223,16 @@
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
 
+.about-container {
+    padding-top: 90vh;
+    padding-left:30px ;
+    border: 2px solid black;
+}
 
 .about-wrapper {
     width: 65%;
+    
+  
 }
 
 .abt-pic {
@@ -229,6 +250,9 @@
     width: 65%;
 }
 
+.techStack-c {
+    padding-top:10vh;
+}
 
 
 
@@ -243,9 +267,7 @@
         width: 50%;
     }
 
-    .techStack-c {
-        padding-top:20vh;
-    }
+  
 
 }
 
@@ -257,7 +279,4 @@
         width: 50%;
     }
 
-    .techStack-c {
-        padding-top:20vh;
-    }
 }
