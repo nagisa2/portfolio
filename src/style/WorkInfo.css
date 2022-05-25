@@ -30,13 +30,12 @@
         flex-direction: column;
     }
     
-    
-    
     .counter-id {
-        font-family: var(--header-font);
         font-size: 1rem;
         font-weight: 700;
         text-align: center;
+        transition: 4s linear ;
+        font-family: var(--header-font);
     }
     
     .info-container h4 {
@@ -86,10 +85,6 @@
 
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
-
-    .hide {
-        display: none
-    }
 
     .work-icon {
         margin-bottom:10px;
