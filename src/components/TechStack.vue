@@ -40,14 +40,14 @@
     </div>
     <div class="animation stack">
       <img
-        class="work-icon "
+        class="work-icon"
         src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg"
         alt="GreenSock"
       />
       <h4>GreenSock</h4>
     </div>
     <div
-      class="devops stack" 
+      class="devops stack"
       v-for="({ devopIcon, devopName }, index) in DevopStack"
       :key="index"
     >

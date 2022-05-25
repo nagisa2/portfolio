@@ -127,6 +127,23 @@
     justify-content: flex-end;
 }
 
+.cv-button a {
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+    padding: 15px 30px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    text-transform: uppercase;
+    color: var(--bg-color-light);
+    font-family: var(--header-font);
+    background-color: var(--soft-red-tone);
+ 
+}
+
+
+
 
 }
 
@@ -157,8 +174,23 @@
 }
 
 
-
 }
+
+
+@media only screen and (min-width:49.0em) {
+
+    .cv-button a {
+        width: auto;
+        padding: 10px 30px;
+     
+    }
+    
+    .cv-button a {
+        font-size: 1rem;
+    }
+    
+    }
+    
 
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
@@ -221,7 +253,7 @@
     object-fit: cover;
     position: relative;
     object-position: center; 
-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .portfolio-img,  .portfolio-skeleton {
@@ -283,6 +315,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8p
     display: flex;
     justify-content: flex-end;
 }
+
 
 
 

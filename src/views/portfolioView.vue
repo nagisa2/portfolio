@@ -98,14 +98,13 @@
         </div>
       </div>
       <div class="cv-button">
-        <CvButton />
+        <a class="portfolio-btn" href="/collins-odongocv.pdf" download id="btn">
+          Download cv
+        </a>
       </div>
     </div>
   </div>
 </template>
-<script setup>
-import CvButton from "../components/DownloadCv.vue";
-</script>
 <script>
 export default {
   data() {
