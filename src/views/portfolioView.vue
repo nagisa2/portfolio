@@ -98,7 +98,12 @@
         </div>
       </div>
       <div class="cv-button">
-        <a class="portfolio-btn" href="/collins-odongocv.pdf" download id="btn">
+        <a
+          class="portfolio-btn"
+          href="/collins-odongo-cv.pdf"
+          download
+          id="btn"
+        >
           Download cv
         </a>
       </div>
