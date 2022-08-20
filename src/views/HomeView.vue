@@ -65,7 +65,7 @@ import ContactView from "./contactView.vue";
 export default {
   data() {
     return {
-      profilePic: "https://github.com/nagisa2.png",
+      profilePic: "https://avatars.githubusercontent.com/u/86556838",
       phoneNumber: "254702777148",
       message: "Hi👋, My name is collins, what can i do for you?",
     };
@@ -96,7 +96,7 @@ export default {
       window.open("https://instagram.com/anonscript1", "_blank");
     },
     github() {
-      window.open("https://github.com/nagisa2/", "_blank");
+      window.open("https://github.com/penguin-cipher/", "_blank");
     },
   },
 

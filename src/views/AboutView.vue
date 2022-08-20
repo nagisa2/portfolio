@@ -109,7 +109,7 @@ export default {
           level: 75,
         },
       ],
-      profilePic: "https://github.com/nagisa2.png",
+      profilePic: "https://avatars.githubusercontent.com/u/86556838",
     };
   },
 };
