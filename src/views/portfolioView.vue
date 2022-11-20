@@ -100,7 +100,7 @@
       <div class="cv-button">
         <a
           class="portfolio-btn"
-          href="/collins-odongo-cv.pdf"
+          href="/collins-odongo.pdf"
           download
           id="btn"
         >
