@@ -96,7 +96,7 @@ export default {
       window.open("https://instagram.com/anonscript1", "_blank");
     },
     github() {
-      window.open("https://github.com/penguin-cipher/", "_blank");
+      window.open("https://github.com/zero-stealth/", "_blank");
     },
   },
 

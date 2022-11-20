@@ -134,7 +134,7 @@
 }
 
 .techStack-c {
-    padding-top:10vh;
+    padding:5% 0;
     
 }
 
@@ -153,9 +153,9 @@
 
 
 .about-container {
-    padding-top: 60vh;
     padding-bottom: 30px;
     overflow-y: scroll;
+    padding-top: 80%;
 } 
 
 .about-img {
@@ -164,7 +164,7 @@
 
 
 .about-wrapper {
-    width: 50%;
+    width: 70vw;
     column-gap: 40px;
     padding: 30px 15px;
     flex-direction: row;
@@ -200,8 +200,8 @@
 }
 
 .work-container , .techStack-c {
-    width: 50%;
-    padding-top: 90px;
+    width: 70vw;
+    padding-top: 10px;
 }
 
 
@@ -214,25 +214,26 @@
     .techStack-c {
         padding-top:15vh;
     }
+
     
-
-
-
+.about-container {
+    padding-top: 80%;
+} 
+    
 }
 
 /* ipad pro screens & laptop */
 @media only screen and (min-width:49.0em) and (max-width:64em) {
 
 .about-container {
-    padding-top: 90vh;
+    padding-top: 80%;
     padding-left:30px ;
     border: 2px solid black;
 }
 
+
 .about-wrapper {
-    width: 65%;
-    
-  
+    width: 65vw;
 }
 
 .abt-pic {
@@ -247,7 +248,7 @@
 }
 
 .work-container , .techStack-c {
-    width: 65%;
+    width: 70%;
 }
 
 .techStack-c {
@@ -264,10 +265,9 @@
 @media only screen and (min-width:64.063em) and (max-width:90.0em) {
     
     .work-container , .techStack-c {
-        width: 50%;
+        width: 50vw;
     }
 
-  
 
 }
 
@@ -276,7 +276,13 @@
 @media only screen and (min-width:91.0em) {
     
     .work-container , .techStack-c {
-        width: 50%;
+        width: 80vw;
+        
     }
+
+    
+    .about-container {
+        padding-top: 0;
+    } 
 
 }

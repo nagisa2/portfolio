@@ -134,7 +134,7 @@ export default {
         {
           projectType: "Web development",
           githubLink: "https://github.com/penguin-cipher/waylinc",
-          projectLink: "https://waylincstechltd.com/",
+          projectLink: "waylinctech.netlify.app",
           projectImage:
             "https://mir-s3-cdn-cf.behance.net/project_modules/source/86a66b144392111.628bd3aae5f7d.jpg",
           projectTitle: "Waylinc",
