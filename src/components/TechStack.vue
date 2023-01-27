@@ -79,6 +79,11 @@ export default {
         },
         {
           languageIcon:
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+          languageName: "Php",
+        },
+        {
+          languageIcon:
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
           languageName: "Golang",
         },
@@ -156,6 +161,7 @@ export default {
             "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
           frameName: "Firebase",
         },
+        
       ],
       DatabaseStack: [
         {

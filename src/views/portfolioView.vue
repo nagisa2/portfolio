@@ -35,7 +35,7 @@
           </div>
           <div
             class="tool-wrapper"
-            v-for="({ adobe, photoshop, framework, email }, index) in toolsUsed"
+            v-for="({ adobe, photoshop, framework, translation, server}, index) in toolsUsed"
             :key="index"
           >
             <div class="tools-used">
@@ -44,7 +44,8 @@
             </div>
             <div class="tools-used">
               <span>{{ framework }}</span>
-              <span>{{ email }}</span>
+              <span>{{ translation }}</span>
+              <span>{{ server }}</span>
             </div>
           </div>
           <div class="portfolio-link">
@@ -116,6 +117,23 @@ export default {
     return {
       Projects: [
         {
+          projectType: "Web development",
+          githubLink: "https://github.com/zero-stealth/dimbaa",
+          projectLink: "https://dimbaa-8fde4.web.app",
+          projectImage:
+            "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dc4f4d159181007.63d3ee2827cc1.png",
+          projectTitle: "Dimbaa",
+          projectDescription:
+            "Dimbaa is a football webapp for data management, analysis and statistics managed by diffrent roles",
+          toolsUsed: [
+            {
+              framework: "vuejs",
+              translation: "i8",
+              server: "php",
+            },
+          ],
+        },
+        {
           projectType: "Graphic design",
           behanceLink:
             "https://www.behance.net/gallery/136965345/seven-zero-a-tech-startup-company-logo",
@@ -131,37 +149,40 @@ export default {
             },
           ],
         },
-        {
-          projectType: "Web development",
-          githubLink: "https://github.com/penguin-cipher/waylinc",
-          projectLink: "waylinctech.netlify.app",
-          projectImage:
-            "https://mir-s3-cdn-cf.behance.net/project_modules/source/86a66b144392111.628bd3aae5f7d.jpg",
-          projectTitle: "Waylinc",
-          projectDescription:
-            "Waylinc is a company that deals with sales , service , programming and repairs of Etr mashine",
-          toolsUsed: [
-            {
-              framework: "vuejs",
-              email: "Emailjs",
-            },
-          ],
-        },
+        // {
+        //   projectType: "Web development",
+        //   githubLink: "https://github.com/penguin-cipher/waylinc",
+        //   projectLink: "waylinctech.netlify.app",
+        //   projectImage:
+        //     "https://mir-s3-cdn-cf.behance.net/project_modules/source/86a66b144392111.628bd3aae5f7d.jpg",
+        //   projectTitle: "Waylinc",
+        //   projectDescription:
+        //     "Waylinc is a company that deals with sales , service , programming and repairs of Etr mashine",
+        //   toolsUsed: [
+        //     {
+        //       framework: "vuejs",
+        //       email: "Emailjs",
+        //     },
+        //   ],
+        // },
       ],
     };
   },
   methods: {
     behanceProject() {
-      window.open(`${this.Projects[0].behanceLink}`, "_blank");
+      // window.open(`${this.Projects[0].behanceLink}`, "_blank");
+      window.open('https://www.behance.net/gallery/136965345/seven-zero-a-tech-startup-company-logo', "_blank");
     },
     githubProject() {
-      window.open(`${this.Projects[1].githubLink}`, "_blank");
+      // window.open(`${this.Projects[0].githubLink}`, "_blank");
+      window.open('https://github.com/zero-stealth/dimbaa', "_blank");
     },
     graphicLink() {
-      window.open(`${this.Projects[0].behanceLink}`, "_blank");
+      // window.open(`${this.Projects[1].behanceLink}`, "_blank");
+      window.open('https://www.behance.net/gallery/136965345/seven-zero-a-tech-startup-company-logo', "_blank");
     },
     webLink() {
-      window.open(`${this.Projects[1].projectLink}`, "_blank");
+      window.open('https://dimbaa-8fde4.web.app', "_blank");
     },
   },
 };

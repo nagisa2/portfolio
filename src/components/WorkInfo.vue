@@ -11,7 +11,7 @@
         <vue3-autocounter
           ref="counter"
           :startAmount="0"
-          :endAmount="13"
+          :endAmount="80"
           :duration="3"
           :autoinit="true"
           class="counter-id"
@@ -49,7 +49,7 @@
         <vue3-autocounter
           ref="counter"
           :startAmount="0"
-          :endAmount="10"
+          :endAmount="30"
           :duration="3"
           :autoinit="true"
           class="counter-id"
@@ -68,12 +68,12 @@
         <vue3-autocounter
           ref="counter"
           :startAmount="0"
-          :endAmount="8"
+          :endAmount="28"
           :duration="3"
           :autoinit="true"
           class="counter-id"
         />
-        <h4>upcoming projects</h4>
+        <h4>personal projects</h4>
       </div>
     </div>
   </div>
