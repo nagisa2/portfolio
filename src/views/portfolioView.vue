@@ -134,7 +134,7 @@ export default {
           ],
         },
         {
-          projectType: "Graphic design",
+          projectType: "Graphic design / UI UX",
           behanceLink:
             "https://www.behance.net/gallery/136965345/seven-zero-a-tech-startup-company-logo",
           projectImage:

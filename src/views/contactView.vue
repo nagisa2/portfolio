@@ -65,7 +65,7 @@
 export default {
   data() {
     return {
-      phoneNumber: "254702777148",
+      phoneNumber: "254717300666",
       message: "Hi👋, My name is collins, what can i do for you?",
     };
   },
@@ -77,11 +77,11 @@ export default {
       );
     },
     behance() {
-      window.open("https://www.behance.net/collinsodongo1", "_blank");
+      window.open("https://www.behance.net/", "_blank");
     },
-    // instagram() {
-    //   window.open("https://instagram.com/anonscript1"), "_blank");
-    // },
+    instagram() {
+      window.open("https://instagram.com/", "_blank");
+    },
     github() {
       window.open("https://github.com/zero-stealth/", "_blank");
     },
