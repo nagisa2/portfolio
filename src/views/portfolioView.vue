@@ -126,7 +126,7 @@ export default {
         {
           projectType: "Web development",
           githubLink: "https://github.com/zero-stealth/dusstech",
-          projectLink: "https://dusstech-brands.vercel.app/",
+          projectLink: "https://design-3d.vercel.app/",
           projectImage:
             "https://raw.githubusercontent.com/zero-stealth/portfolio/master/src/assets/po2.jpg",
           projectTitle: "Dusstech brands",
